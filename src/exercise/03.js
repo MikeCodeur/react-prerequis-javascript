@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // Décomposition et Shorthand property names
 // http://localhost:3000/alone/exercise/03.js
 
