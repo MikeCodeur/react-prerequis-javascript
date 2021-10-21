@@ -1,8 +1,9 @@
 // JavaScript - Template Literals
 // http://localhost:3000/alone/exercise/02.js
 
-import /*displayText,*/ {init} from './helper/exerciseHelper'
-init("JavaScript - Template Literals")
+// eslint-disable-next-line no-unused-vars
+import {displayText, init} from './helper/exerciseHelper'
+init('JavaScript - Template Literals')
 
 // 🐶 Créé 3 constantes avec leur valeurs
 
