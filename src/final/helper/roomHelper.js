@@ -1,10 +1,9 @@
-
-export default function calculAir(longeur, largeur){
+export default function calculAir(longeur, largeur) {
   return longeur * largeur
 }
 
-export function calculPerimetre(longeur, largeur){
-  return longeur * largeur * 2
+export function calculPerimetre(longeur, largeur) {
+  return (longeur + largeur) * 2
 }
 
-export const TEMP_MAX = 60 
+export const TEMP_MAX = 60
