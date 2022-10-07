@@ -186,7 +186,7 @@ const QCM: Array<IQCMInterface> = [
           'Un array',
           'dépend de la condition',
         ],
-        answer: '3',
+        answer: '2',
       },
       {
         question: 'array.filter()  ...',
