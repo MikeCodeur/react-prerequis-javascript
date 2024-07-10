@@ -1,7 +1,8 @@
 // Array : Les Méthodes courantes
 // http://localhost:3000/isolated/final/06.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init("Array : Les Méthodes courantes")
 
 
@@ -49,3 +50,5 @@ displayText(`Tous les ids  ${ids.toString()}`)
 
 const webCamPc = computers.filter(computer => computer.features.includes('webcam'))
 displayText(`Les pc avec webcam :  ${webCamPc.map(computer => computer.name).toString()}`)
+};
+export default () => <App exercice={exercice} />;

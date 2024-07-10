@@ -1,7 +1,8 @@
 // Décomposition et Shorthand property names
 // http://localhost:3000/isolated/final/03.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('Décomposition et Shorthand property names')
 
 // terrain de foot
@@ -20,3 +21,5 @@ function calculAir({type, longueur, largeur}) {
 
 calculAir(terrainFoot)
 calculAir(terrainBasket)
+};
+export default () => <App exercice={exercice} />;

@@ -1,8 +1,9 @@
 // ESModule Import / Export
 // http://localhost:3000/alone/exercise/01.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
 import roomHelper, {TEMP_MAX, calculPerimetre} from './helper/roomHelper';
+const exercice = () => {
 
 init()
 displayText('Hello World')
@@ -15,3 +16,5 @@ displayText(lib)
 
 lib = "La température max d'une pièce est " + TEMP_MAX
 displayText(lib)
+};
+export default () => <App exercice={exercice} />;
