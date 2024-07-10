@@ -2,7 +2,8 @@
 // http://localhost:3000/alone/exercise/02.js
 
 // eslint-disable-next-line no-unused-vars
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('JavaScript - Template Literals')
 
 // 🐶 Créé 3 constantes avec leurs valeurs 5 10 et 200
@@ -12,3 +13,5 @@ init('JavaScript - Template Literals')
 
 // 🐶 affiche le liblélé “Le nombre le plus grand entre 5 10 200 est 200 !”
 // à l'écran avec 'displayText'
+};
+export default () => <App exercice={exercice} />;
