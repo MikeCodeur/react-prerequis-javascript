@@ -1,8 +1,8 @@
 // ESModule Import / Export
 // http://localhost:3000/alone/exercise/01.js
-
+import { App } from "../lib/exerciseHelper"
 // 🐶 Importe 'init' et 'displayText' du module qui permet d'afficher un texte dans la page de l'exercice
-//  🤖 import displayText, { App, init } from "../lib/exerciseHelper";
+//  🤖 import displayText, { init } from "../lib/exerciseHelper";
 const exercice = () => {
 // 🐶 Affiche 'HelloWorld' dans la page grace à la fonction `displayText` importée
 // Atention il faut appeler une fois la fonction init avant les appels à displayText
