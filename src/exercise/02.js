@@ -2,7 +2,7 @@
 // http://localhost:3000/alone/exercise/02.js
 
 // eslint-disable-next-line no-unused-vars
-import displayText, { App, init } from "../lib/exerciseHelper";
+import displayText, { App, init } from "../lib/exerciseHelper"; 
 const exercice = () => {
 init('JavaScript - Template Literals')
 
