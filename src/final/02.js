@@ -1,3 +1,4 @@
+"use client"
 // // JavaScript - Template Literals
 // http://localhost:3000/isolated/final/02.js
 

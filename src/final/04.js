@@ -1,3 +1,4 @@
+"use client"
 // Fonctions fléchées
 // http://localhost:3000/isolated/final/04.js
 

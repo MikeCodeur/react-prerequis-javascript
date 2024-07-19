@@ -1,3 +1,4 @@
+"use client"
 // Décomposition et Shorthand property names
 // http://localhost:3000/isolated/final/03.js
 

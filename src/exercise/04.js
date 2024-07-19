@@ -1,3 +1,4 @@
+"use client"
 /* eslint-disable no-unused-vars */
 // Fonctions fléchées
 // http://localhost:3000/alone/exercise/04.js

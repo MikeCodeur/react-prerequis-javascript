@@ -1,3 +1,4 @@
+"use client"
 // Array : Les Méthodes courantes
 // http://localhost:3000/isolated/final/06.js
 
