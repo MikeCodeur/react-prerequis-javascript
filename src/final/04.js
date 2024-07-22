@@ -1,7 +1,9 @@
+"use client"
 // Fonctions fléchées
 // http://localhost:3000/isolated/final/04.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init("Fonctions fléchées")
 
 const calculEnergie = (masse, celerite = 300000000) => {
@@ -12,7 +14,8 @@ const calculEnergie = (masse, celerite = 300000000) => {
 
 const m = 0.005
 displayText(`L'énergie d'une masse de ${m} kg et de ${calculEnergie(m)} joules`)
-
+};
+export default () => <App exercice={exercice} />;
 
 
 

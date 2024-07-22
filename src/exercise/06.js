@@ -1,7 +1,9 @@
+"use client"
 // Array : Les Méthodes courantes
 // http://localhost:3000/alone/exercise/06.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('Array : Les Méthodes courantes')
 
 const computers = [
@@ -60,3 +62,5 @@ displayText(`Tous les ids `)
 // 🤖 en passant par la méthode `filter`
 
 displayText(`Les pc avec webcam : `)
+};
+export default () => <App exercice={exercice} />;

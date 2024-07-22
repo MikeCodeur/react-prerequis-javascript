@@ -1,7 +1,9 @@
+"use client"
 // Promise aync await
 // http://localhost:3000/isolated/final/07.js
 
-import {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init("Promise aync await")
 
 function calculNombrePair(nombre = 0) {
@@ -29,3 +31,5 @@ async function calculNombrePairAsync() {
   }
 }
 calculNombrePairAsync().then( e => console.log(e), err => console.error(err))
+};
+export default () => <App exercice={exercice} />;

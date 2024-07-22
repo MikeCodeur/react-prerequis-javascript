@@ -1,7 +1,9 @@
+"use client"
 // Nullish coalishing / Optionnel chaining / Ternaire
 // http://localhost:3000/alone/exercise/05.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('Nullish coalishing / Optionnel chaining / Ternaire')
 
 const pays = null //{nom: "France", countryCode : "FR"}
@@ -36,3 +38,5 @@ const getPaysOrDefault = personne => {
   return personne.adresse.pays
 }
 displayText(`Le pays est ${getPaysOrDefault(personne).nom}`)
+};
+export default () => <App exercice={exercice} />;

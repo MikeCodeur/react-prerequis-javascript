@@ -1,8 +1,10 @@
+"use client"
 /* eslint-disable no-unused-vars */
 // Décomposition et Shorthand property names
 // http://localhost:3000/alone/exercise/03.js
 
-import displayText, {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('Décomposition et Shorthand property names')
 
 // propiétes d'un terrain de foot
@@ -19,3 +21,5 @@ const type = 'footbal'
 // 🐶 affiche avec `displayText` : "La surface du terrain de footbal/basket est x m² "
 
 // 🐶 Appelle cette fonction avec le terrain de footbal puis de basket
+};
+export default () => <App exercice={exercice} />;

@@ -1,7 +1,9 @@
+"use client"
 // Promise aync await
 // http://localhost:3000/isolated/final/07.js
 
-import {init} from './helper/exerciseHelper'
+import displayText, { App, init } from "../lib/exerciseHelper";
+const exercice = () => {
 init('Promise aync await')
 
 // 🐶 Créé un Promise `calculNombrePair` qui detecte si la parametre en entrée est un nombre impair
@@ -13,3 +15,5 @@ init('Promise aync await')
 // 🐶 Appelle cette Promise en asynchrone
 // 🤖 async function
 // 🤖 await calculNombrePair
+};
+export default () => <App exercice={exercice} />;
